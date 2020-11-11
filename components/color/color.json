@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_color_colors",
+  "info": {
+    "name": "color",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "bgcolor": {
+      "type": "json"
+    },
+    "primary": {
+      "type": "json"
+    },
+    "secondary": {
+      "type": "json"
+    }
+  }
+}

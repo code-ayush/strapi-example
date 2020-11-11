@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_color_texts",
+  "info": {
+    "name": "text",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "secondary": {
+      "type": "json"
+    },
+    "primary": {
+      "type": "json"
+    }
+  }
+}

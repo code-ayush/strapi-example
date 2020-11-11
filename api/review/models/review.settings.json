@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reviews",
+  "info": {
+    "name": "review"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "review": {
+      "type": "text",
+      "required": true
+    },
+    "rating": {
+      "type": "integer",
+      "default": 0,
+      "max": 5,
+      "min": 0,
+      "required": true
+    },
+    "restaurant": {
+      "model": "restaurant",
+      "via": "reviews"
+    }
+  }
+}

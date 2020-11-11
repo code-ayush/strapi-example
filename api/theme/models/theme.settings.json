@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "themes",
+  "info": {
+    "name": "theme"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "dynamiczone",
+      "components": [
+        "color.primary"
+      ]
+    }
+  }
+}
